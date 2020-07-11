@@ -7,7 +7,16 @@ class Home extends BaseController
 	public function index()
 	{
 		return view('home/index');
-		//echo "Hallo World, thanks.. di coba aja dulu";
+	}
+
+	public function acara()
+	{
+		return view('acara/index');
+	}
+
+	public function kehadiran()
+	{
+		return view('kehadiran/index');
 	}
 
 	//--------------------------------------------------------------------
