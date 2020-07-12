@@ -1,14 +1,19 @@
 <?= $this->extend('template/layout'); ?>
 
+<?= $this->section('head'); ?>
+<link rel="stylesheet" href="kehadiran.css">
+<?= $this->endSection(); ?>
+
 <?= $this->section('content'); ?>
 <div class="container">
     <table class="table table-hover">
         <thead>
             <tr>
                 <th scope="col">#</th>
-                <th scope="col">First</th>
-                <th scope="col">Last</th>
-                <th scope="col">Handle</th>
+                <th scope="col">Nama Acara</th>
+                <th scope="col">Waktu</th>
+                <th scope="col">Tempat</th>
+                <th scope="col">Aksi</th>
             </tr>
         </thead>
         <tbody>
@@ -17,17 +22,8 @@
                 <td>Mark</td>
                 <td>Otto</td>
                 <td>@mdo</td>
-            </tr>
-            <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-            </tr>
-            <tr>
-                <th scope="row">3</th>
-                <td colspan="2">Larry the Bird</td>
-                <td>@twitter</td>
+                <td><a class="btn btn-info" href="#">Edit</a>
+                    <a class="btn btn-danger" href="#">Hapus</a></td>
             </tr>
         </tbody>
     </table>

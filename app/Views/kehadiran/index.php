@@ -1,14 +1,20 @@
 <?= $this->extend('template/layout'); ?>
 
+<?= $this->section('head'); ?>
+<link rel="stylesheet" href="acara.css">
+<?= $this->endSection(); ?>
+
 <?= $this->section('content'); ?>
 <div class="container">
     <table class="table table-hover">
         <thead>
             <tr>
                 <th scope="col">#</th>
-                <th scope="col">First</th>
-                <th scope="col">Last</th>
-                <th scope="col">Handle</th>
+                <th scope="col">Gambar</th>
+                <th scope="col">Nama</th>
+                <th scope="col">Telp</th>
+                <th scope="col">Email</th>
+                <th scope="col">Aksi</th>
             </tr>
         </thead>
         <tbody>
@@ -17,17 +23,9 @@
                 <td>Mark</td>
                 <td>Otto</td>
                 <td>@mdo</td>
-            </tr>
-            <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-            </tr>
-            <tr>
-                <th scope="row">3</th>
-                <td colspan="2">Larry the Bird</td>
-                <td>@twitter</td>
+                <td>@mdo</td>
+                <td><a class="btn btn-info" href="#">Edit</a>
+                    <a href="#" class="btn btn-danger">Hapus</a></td>
             </tr>
         </tbody>
     </table>

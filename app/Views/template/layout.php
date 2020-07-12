@@ -8,7 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="<?= base_url('res/bootstrap4/css/bootstrap.css') ?>">
-
+    <?= $this->renderSection('head'); ?>
     <title>Buku Tamu Online</title>
 </head>
 
@@ -23,7 +23,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/kehadiran">Kehadiran</a>
@@ -65,6 +65,7 @@
     <script src="<?= base_url('res/bootstrap4/js/jquery-3.5.0.js') ?>"></script>
     <script src="<?= base_url('res/bootstrap4/js/popper.js') ?>"></script>
     <script src="<?= base_url('res/bootstrap4/js/bootstrap.js') ?>"></script>
+    <?= $this->renderSection('script'); ?>
 </body>
 
 </html>
