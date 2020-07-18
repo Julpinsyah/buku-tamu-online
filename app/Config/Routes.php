@@ -36,6 +36,8 @@ $routes->get('/kehadiran', 'Home::kehadiran');
 $routes->get('/acara', 'Home::acara');
 $routes->get('/form-kehadiran', 'KehadiranController::formKehadiran');
 $routes->post('/tambah-kehadiran', 'KehadiranController::tambahData');
+$routes->get('/form-acara', 'AcaraController::formAcara');
+$routes->post('/tambah-acara', 'AcaraController::tambahAcara');
 
 /**
  * --------------------------------------------------------------------
