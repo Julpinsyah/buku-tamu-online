@@ -6,17 +6,20 @@ class Home extends BaseController
 {
 	public function index()
 	{
-		return view('home/index');
+		$data['title'] = "Buku Tamu Online";
+		return view('home/index', $data);
 	}
 
 	public function acara()
 	{
-		return view('acara/index');
+		$data['title'] = 'Halaman Acara';
+		return view('acara/index', $data);
 	}
 
 	public function kehadiran()
 	{
-		return view('kehadiran/index');
+		$data['title'] = 'Halaman Kehadiran';
+		return view('kehadiran/index', $data);
 	}
 
 	//--------------------------------------------------------------------

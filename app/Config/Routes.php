@@ -34,6 +34,8 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 $routes->get('/kehadiran', 'Home::kehadiran');
 $routes->get('/acara', 'Home::acara');
+$routes->get('/form-kehadiran', 'KehadiranController::formKehadiran');
+$routes->post('/tambah-kehadiran', 'KehadiranController::tambahData');
 
 /**
  * --------------------------------------------------------------------

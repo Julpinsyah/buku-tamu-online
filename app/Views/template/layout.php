@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="<?= base_url('res/bootstrap4/css/bootstrap.css') ?>">
     <?= $this->renderSection('head'); ?>
-    <title>Buku Tamu Online</title>
+    <title><?= $title; ?></title>
 </head>
 
 <body>
