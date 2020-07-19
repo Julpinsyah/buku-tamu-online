@@ -30,6 +30,8 @@
 
         <div class="form-group row">
             <div class="col-sm-6">
+                <a href="/kehadiran" class="btn btn-info">Kembali</a>
+                <button type="reset" class="btn btn-danger">Reset</button>
                 <button type="submit" class="btn btn-primary">Simpan</button>
             </div>
         </div>

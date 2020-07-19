@@ -6,6 +6,7 @@
 
 <?= $this->section('content'); ?>
 <div class="container">
+    <a href="/form-kehadiran" class="btn btn-primary my-3">Tambah Data</a>
     <table class="table table-hover">
         <thead>
             <tr>

@@ -24,6 +24,8 @@
 
         <div class="form-group row">
             <div class="col-sm-6">
+                <a href="/acara" class="btn btn-info">Kembali</a>
+                <button type="reset" class="btn btn-danger">Reset</button>
                 <button type="submit" class="btn btn-primary">Simpan Acara</button>
             </div>
         </div>

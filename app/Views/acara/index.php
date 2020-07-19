@@ -6,6 +6,7 @@
 
 <?= $this->section('content'); ?>
 <div class="container">
+    <a href="/form-acara" class="btn btn-primary my-3">Tambah Acara</a>
     <table class="table table-hover">
         <thead>
             <tr>
@@ -22,8 +23,10 @@
                 <td>Mark</td>
                 <td>Otto</td>
                 <td>@mdo</td>
-                <td><a class="btn btn-info" href="#">Edit</a>
-                    <a class="btn btn-danger" href="#">Hapus</a></td>
+                <td>
+                    <a class="btn btn-info" href="#">Edit</a>
+                    <a class="btn btn-danger" href="#">Hapus</a>
+                </td>
             </tr>
         </tbody>
     </table>
